@@ -1,7 +1,7 @@
 let contagem : number = 0;
 
 do {
-console.log(`${contagem}`)
-contagem = (contagem+1)
+    contagem++;
+    console.log(`${contagem}`)
 
-}while(contagem <= 11 );
+}while(contagem <= 10 );
